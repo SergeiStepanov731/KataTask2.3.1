@@ -2,14 +2,13 @@ package web.service;
 
 
 import web.entity.User;
-
 import java.util.List;
 
 public interface UserService {
-    public List<User> getAllUsers();
+    List<User> getAllUsers();
 
-    public void saveUser(User user);
-    public User getUser(int id);
-    public void update(int id, User user);
-    public void delete(int id);
+    void saveUser(User user);
+    User getUser(int id);
+    void update(int id, User user);
+    void delete(int id);
 }

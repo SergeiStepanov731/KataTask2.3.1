@@ -6,7 +6,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import web.entity.User;
 import web.service.UserService;
-
 import java.util.List;
 
 @Controller
