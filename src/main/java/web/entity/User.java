@@ -12,15 +12,19 @@ import javax.persistence.Table;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name ="id")
+    @Column(name = "id")
     private int id;
-    @Column(name ="name")
+
+    @Column(name = "name")
     private String name;
-    @Column(name ="surname")
+
+    @Column(name = "surname")
     private String Surname;
-    @Column(name ="department")
+
+    @Column(name = "department")
     private String department;
-    @Column(name ="salary")
+
+    @Column(name = "salary")
     private int salary;
 
     public User(int id) {
