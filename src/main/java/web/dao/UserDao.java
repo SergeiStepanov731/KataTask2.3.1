@@ -4,8 +4,8 @@ import web.entity.User;
 import java.util.List;
 
 public interface UserDao {
-    void update(int id, User user);
 
+    void update(int id, User user);
 
     List<User> getAllUsers();
 

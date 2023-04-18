@@ -11,9 +11,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService{
 
     private UserDao userDao;
+
     UserServiceImpl(UserDao userDao){
         this.userDao=userDao;
     }
+
     @Override
     @Transactional(readOnly = true)
     public List<User> getAllUsers() {
